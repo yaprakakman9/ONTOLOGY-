@@ -1,0 +1,516 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:23992972-357b-46ee-8dfa-d3feeced2f57#"
+     xml:base="urn:webprotege:ontology:23992972-357b-46ee-8dfa-d3feeced2f57"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:elements="http://purl.org/dc/elements/1.1/ ">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:23992972-357b-46ee-8dfa-d3feeced2f57"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/des -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/des">
+        <rdfs:label xml:lang="en">dc:des</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/format -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/ident -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/ident">
+        <rdfs:label xml:lang="en">dc:ident</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/identifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/identifier"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/langage -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/langage">
+        <rdfs:label xml:lang="en">dc:langage</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/rights -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/rights"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/subject -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/subject"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/tpye -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/tpye">
+        <rdfs:label xml:lang="en">dc:tpye</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/type -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/type"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/ Subject -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/ Subject">
+        <rdfs:label xml:lang="en">dc: Subject</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R2GLUjlsx6IS8tgvvpnaak -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R2GLUjlsx6IS8tgvvpnaak">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB8JAeUocRHk13ijPONaNfs"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İlhan Durusoy</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ülkemizde inşaat şirketleri genelde iki tip iş yapar, taahhüt ve yapsat işi. İkisinin tek ortak yanı inşaattır. Yapsat, inşaat işinden çok farklı olarak proje geliştirme, satış ve pazarlama işleri ağır basar. Satış gelirleri zaman içinde ve piyasaya göre oluşur ve yapsatta fizibilite çok önem kazanır. İnşaat işine fizibilite mantığı ile bakmak gerekir. Müteahhit olarak inşaat şirketi her türlü inşaat işine teklif verir, teklifi uygun bulunursa sözleşme yapar ve işi belli bir süre ve bedelle bitirir. Bu kitapta inşaat şirketi organizasyonu, ekip kurma, teklif verme, iş alma, keşif, planlama, maliyet muhasebesi, inşaat kademeleri, örnek şirket prosedürleri, örnek inşaat taahhüt sözleşmesi verilmiştir. Ayrıca çeşitli büyük inşaat şirketlerinde üst düzeyde görev yapmış 55 yıllık inşaat mühendisi olarak inşaat şirketlerinde görmüş olduğum yanlışlıklar, eksiklikler ve tavsiyelerim bulunmaktadır.</dc:description>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789752312685</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkish</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boyut Yayın Grubu</dc:publisher>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boyut Yayın Grubu</dc:rights>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İlhan Durusoy</dc:rights>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Civil Engineering</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engineering Sciences</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İnşaat Müteahhidi ve İnşaatta Fizibilite</dc:title>
+        <rdfs:label xml:lang="en">İnşaat Müteahhidi ve İnşaatta Fizibilite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R73LsOSKogj0OxCvE45SECH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R73LsOSKogj0OxCvE45SECH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7qgDSGujkgNkZ3mlXBqeFa"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Çetin Çetintaş</dc:creator>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İnci Ünlü</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</dc:date>
+        <dc:description xml:lang="tr">Beden; yaşadığımız, yaşamakta olduğumuz ve yaşayacağımız her şeyin izleriyle doludur. Tüm yaşamımızı seçimlerimiz şekillendirir. Seçimlerimiz, yaşamda yerini bulmak için önce bedenimizde yerini bulur ve ardından, bedenimizi o seçtiğimiz noktaya doğru hareket ettirmeye başlar. Peki tüm bunları bedende gözlemlemek gerçekten mümkün müdür? Bu kitapta sunulan bilgiler, sizi prana (evrensel enerji) ve Enerji Bedeni’niz ile tanıştıracak. Enerjinin, bedeninizin hangi bölgesinde ne şekilde yer edindiğini öğrenecek ve bu durumun yarattığı sonuçları hem fark edebilme hem de yönetebilme kabiliyeti kazanacaksınız.</dc:description>
+        <dc:format xml:lang="tr">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786057040923</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkish</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yogakioo Yayınları</dc:publisher>
+        <dc:rights xml:lang="tr">Yogakioo Yayınları</dc:rights>
+        <dc:rights xml:lang="tr">Çetin Çetintaş</dc:rights>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İnci Ünlü</dc:rights>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Çakralar Enerji Bedeni Anatomisi</dc:title>
+        <rdfs:label xml:lang="en">Çakralar Enerji Bedeni Anatomisi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7qgDSGujkgNkZ3mlXBqeFa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7qgDSGujkgNkZ3mlXBqeFa">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBT847QQDWeXoEuK9C3rtkF"/>
+        <rdfs:label xml:lang="en">Anatomy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R81z07neQsf3EAAPWLlyrqv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R81z07neQsf3EAAPWLlyrqv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBT847QQDWeXoEuK9C3rtkF"/>
+        <rdfs:label xml:lang="en">astronomy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R88HPBJwwZTJmZqkxBOAmKj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R88HPBJwwZTJmZqkxBOAmKj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8ykVD6PFSW2ZmUlbKhhLGi"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bahadır Erışık</dc:contributor>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miray Doğan</dc:contributor>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zeynep Arık Tozar</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">David Eagleman</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Büyük ilgi gören kitabı Incognito ile nörobilimi geniş kitlelerle buluşturan David Eagleman, bizi içimizdeki kozmosa doğru hızlı ve nefes kesici bir yolculuğa çıkarıyor: Gerçek nedir? &quot;Sen&quot; kimsin? Nasıl karar veriyorsun? Beynin neden başkalarına ihtiyaç duyuyor? Teknoloji &quot;insan olmak&quot;ın anlamını değiştirebilir mi?
+Durak durak ilerleyen bu büyüleyici yolculuk ekstrem sporlar dünyasından ceza hukukuna, yüz ifademizden beyin ameliyatlarına, içgüdülerden ölümsüzlük arayışına kadar uzanıyor. Yol üstünde, muazzam karmaşıklık barındıran beyin hücreleri ve onları birbirine bağlayan trilyonlarca sinirin arasında görmeyi pek de beklemediğiniz bir şey beliriyor: kendiniz.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786054729692</dc:identifier>
+        <dc:langage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkish</dc:langage>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brain</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beyin Senin Hikayen</dc:title>
+        <rdfs:label xml:lang="en">Beyin Senin Hikayen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8NxYyGVFRFuPIXTyAL5Dce -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8NxYyGVFRFuPIXTyAL5Dce">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7qgDSGujkgNkZ3mlXBqeFa"/>
+        <dc:contributor xml:lang="tr">Levent Tök</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rajvardhan Azad</dc:creator>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T. Trese</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</dc:date>
+        <dc:description xml:lang="tr">Yakın zamana kadar Prematüre Retinopatisi&apos;nin (ROP) esas olarak gelişmiş ülkelerde görüldüğüne inanılmakta idi. Ancak son zamanlarda gelişmekte olan ülkelerde de hastalık insidansında hızlı bir artış görülmektedir. Çocukluk çağı körlüğüne sebep olabilmesi nedeniyle hastalığın yüksek görülme sıklığı özellikle dikkat çekici hale gelmiştir. ROP&apos;un klinik görünümündeki geniş farklılıklar günümüzde ön plana çıkmaktadır. Bu kitap ROP kliniğinin tüm bu farklı prezentasyonlarını her yönüyle ve sistematik olarak tartışmaktadır.
+ Kitapta; ETROP sınıflaması, APROP terminolojisi, ROP&apos;ta teletıp gibi konuları da içeren bu alandaki kayda değer gelişmeler vurgulanmaktadır. ROP cerrahisi, özellikle mikroinvaziv vitreus cerrahisi de tartışılmıştır. Tüm oftalmologlar ve özellikle pediatrik oftalmoloji alanında çalışmalar için güvenilir bir kaynak olması yanında, erken tanı ve hasta yönlendirme açısından yenidoğan uzmanlarına da oldukça faydalı olacak niteliktedir.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789944157599</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkish</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hiperlink</dc:publisher>
+        <dc:title xml:lang="tr">Prematüre Retinopatisi</dc:title>
+        <elements:Subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Health</elements:Subject>
+        <rdfs:label xml:lang="en">Prematüre Retinopatisi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8YwpZgncPrygTKyU06fmwG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8YwpZgncPrygTKyU06fmwG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RthoYO13Q8upDR1vcwHkCf"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Töre Sivrioğlu</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Akdenz’İn Öyküsünü Anlatmak, Kayip Kitalarin, Tek Bİr İz Birakmadan Yok Olan Medenİyetlerİn, Antİk Yunan’la Misir’in, Cennetten Kovulanlarla Tek Gözlü Devlerİn Ve Daha Nİcelerİnİn Öyküsünü De Anlatmaktir. Bugün masmavi suları, kıyı boyunca uzanan kayalarının büyüleyici doğası, şirin makileri, turunçgilleri ve zeytinlikleriyle herkesi büyüleyen Akdeniz havzası, milyonlarca yıl önce yakıcı güneşin kavurduğu çöller, bozkırlar ve giderek kuruyan tuz göllerinden ibaretti. Ancak jeolojik açıdan göz kırpmak kadar kısa olarak tanımlanabilecek bir süre içinde suları yükseldi, kara parçalarını aştı ve insanlık tarihinin en büyüleyici medeniyetlerine yaşam kaynağı oldu. O dönemlerde yapılan keşiflere hâlâ çok şey borçlu olduğumuz gibi bahsi geçen antik uygarlıklardan yadigâr gizemleri de çözmüş sayılmayız. Benzersiz bir hayal gücünün ürünü olan mitolojik anlatılarsa dünyanın en güzel masalları olarak gökkubbede tınlamaya devam ediyor. Arkeolog Töre Sivrioğlu’nun rehberliğinde yapacağınız bu gezi, bir uygarlık tarihi okumasından çok benzersiz bir gizem avı.. Okurunu bundan alti mİlyon yil öncesİne götüren bu masalsı zaman yolculuğuna hoş geldiniz.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786254140648</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkish</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epsilon Yayınevi</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medeniyetlerin Şafağı Akdeniz&apos;in Öyküsü</dc:title>
+        <rdfs:label xml:lang="en">Medeniyetlerin Şafağı Akdeniz&apos;in Öyküsü</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ghTudB3C4hUhUf7ohV4Q0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8ghTudB3C4hUhUf7ohV4Q0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RthoYO13Q8upDR1vcwHkCf"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gönül Pultlar</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adile Ayda</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milattan önceki binyıl içinde tarih sahnesinde yer almış, Avrupa&apos;ya medeniyeti getirdiği kabul edilen Etrüskler kimdir? Günümüzde İtalya denilen topraklarda yaşamış oldukları halde Hint-Avrupalı olmadıkları bilinen Etrüsklerin kökeni yüzyıllardır bir muamma olarak kalmıştır. Türkiye Cumhuriyeti&apos;nin ilk kadın diplomatı Adile Ayda, ölümünden hemen önce yayımladığı bu kitapta yaptığı karşılaştırmalarla, Etrüsklerin, İtalya&apos;ya göç etmiş Eski Türkler olduğunu itiraz kaldırmaz veriler yoluyla kanıtlamaya girişmektedir. Son yılların DNA çalışmaları Etrüsklerin Batı Anadolu&apos;dan göç ettiklerini saptamıştır. Gelgelelim, göç ettikleri dönemde o bölgede Türklerin değil de başka toplulukların bulunmuş olduğu kabul gördüğü için, bu bilgi, kesinleşmiş de olsa, Etrüskleri Türk yapmamaktadır. İşte Ayda&apos;nın bu eserdeki çabasının önemi buradadır. İlk defa 1992 yılında yayımlanan bu eser, savunduğu tezi benimseyenler tarafından hemen sahiplenildi. Geçen zaman içinde Adile Ayda adı, Etrüsklerin  Türk oluşu teziyle özdeşleştiği gibi, kitap ilgili  çalışmalarda sık sık alıntılanan bir klasik haline geldi ve konuya eğilenler tarafından aranan bir eser oldu. Hem bu talebi karşılamak, hem de yeni bir kuşak okuyucuya, kolaylıkla anlayacağı ve iletişim kuracağı dilde sunmak üzere bu yeni baskı hazırlandı.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789752312289</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkish</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boyut Yayın Grubu</dc:publisher>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Etrüskler (Tursakalar) Tarih</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Etrüskler Türk İdiler - Din ve Dil ile ilgili Deliller</dc:title>
+        <rdfs:label xml:lang="en">Etrüskler Türk İdiler - Din ve Dil ile ilgili Deliller</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8kcS1t2lhmbUI1JayffNC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8kcS1t2lhmbUI1JayffNC">
+        <rdfs:label xml:lang="en">types</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ykVD6PFSW2ZmUlbKhhLGi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8ykVD6PFSW2ZmUlbKhhLGi">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBT847QQDWeXoEuK9C3rtkF"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Populer Science</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R970eDzz4xyqBwiQJnodKc8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R970eDzz4xyqBwiQJnodKc8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8ykVD6PFSW2ZmUlbKhhLGi"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sinan Canan</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bu kitap bizzat sizinle, bizimle ilgili... Anne karnından yaşamımızın sonuna kadar tüm yaşamımızı yönetmek gibi çetin bir işle mükellef o muhteşem et parçasının, yani beyninizin başrolü oynadığı bir macerayı yaşıyoruz hep birlikte. Bu maceranın adı ise &quot;hayat&quot;... Bir sinirbilimci olarak, beyin hakkında herkesin bilmesi gerektiğini düşündüğüm işe yarar bilgileri, kendi hayatıma geri dönüp baktığımda gördüklerimle birlikte, meraklısıyla paylaşmak en büyük keyfim. Yüzlerce kez anlatmama rağmen, öğrenmeye ve anlatmaya doyamadığım bu muhteşem meseleyi, bu kez de sayfaların ve kelimelerin izin verdiği ölçüde burada sizlerle paylaşmak niyetindeyim. [n]Beyin&apos;in bu ilk beyin kitabında inanıyorum ki bizzat kendinizi okuyacak ve bilimsel bilgiden yaşama sevincine açılan nice kapıları keşfetmenin keyfini hissedeceksiniz. Fakat unutmayın; hiçbir insanoğlu, beyniniz kadar muhteşem bir kitap yazamayacak. Bu sayfalarla birlikte aslında bizzat onu okumaya, onu anlamaya çalışıyoruz... Türkiye&apos;nin en popüler, en eğlenceli bilim insanlarından biri olan Sinan Canan; gündelik hayatın fazlasıyla içinden olan Değişen Be(y)nim&apos;le, beyine dair aklınıza gelebilecek birçok soruyu sinirbilimlerinin ışığında kolay okunup anlaşılacak bir şekilde ele alıyor ve beyni daha verimli kullanmanın yollarını gösterirken insan hayatına dair tecrübeyle sabit temel düsturlarını da okurlarıyla paylaşıyor.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786059218085</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkish</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tuti Kitap</dc:publisher>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brain</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neurology</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Değişen Beynim</dc:title>
+        <rdfs:label xml:lang="en">Değişen Beynim</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9fenjgoiR3qn9zRu0fJpa7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9fenjgoiR3qn9zRu0fJpa7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R81z07neQsf3EAAPWLlyrqv"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ferit Uslu</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</dc:date>
+        <dc:description xml:lang="tr">Yirminci yüzyılın ilk yarısında ileri sürülen büyük patlama teorisi evrenin var oluşu ve tarihi gelişimine ilk kez bilimsel bir bakış açısı sağladı Astronomi ve fiziksel kozmolojideki son çeyrek yüzyılda meydana gelen gelişmeler evrenin geçmişi ve başlangıcı ile ilgili büyük patlama teorisinin cevap veremediği pek çok soruyu özelliklede de ilk saniyede ne olduğu ve hangi fiziksel süreçlerin büyük patlamaya sebep olduğu sorularını aydınlattı. Evrenin yaralatışının şimdiye kadar karanlıkta kalmış ilk 10-43 saniyelik kısmı (PLANC ZAMANI) üzerindeki sır perdesi bu gelişmeler ışığında aralandı.</dc:description>
+        <dc:format xml:lang="tr">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">978-9944-77-141-2</dc:identifier>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789944771412</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkish</dc:language>
+        <dc:publisher xml:lang="tr">Nobel Akademik Yayıncılık</dc:publisher>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ferit Uslu</dc:rights>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nobel Akademik Yayıncılık</dc:rights>
+        <dc:title xml:lang="tr">Tanrı ve Fizik: Büyük Patlama ve Öncesi</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tanrı ve Fizik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB8JAeUocRHk13ijPONaNfs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB8JAeUocRHk13ijPONaNfs">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBT847QQDWeXoEuK9C3rtkF"/>
+        <rdfs:label xml:lang="en">Engineering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBT847QQDWeXoEuK9C3rtkF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBT847QQDWeXoEuK9C3rtkF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8kcS1t2lhmbUI1JayffNC"/>
+        <rdfs:label xml:lang="en">science</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBqjdKpTkosngf9TsAzvL2k -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBqjdKpTkosngf9TsAzvL2k">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB8JAeUocRHk13ijPONaNfs"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Azmi Özsoysal</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gemi Dizel Motorları, Arızalar ve Nedenleri&quot; adı altında sunulan bu kitap, kapsadığı konular ve ayrıntıları itibariyle Türkiye&apos;de basılan ilk ve tek eser kimliği taşımaktadır. Bu alanda yakın niteliklere sahip diğer kitap ise, kaynakçadan açıkça görülebileceği üzere; 1946 yılında ABD Deniz Kuvvetleri tarafından hazırlanan, daha sonra Dz.K.K. tarafından Türkçeye çevirisi yaptırılan eserdir. Kitaptaki fotoğraflar, yazarın bizzat katıldığı gemi dizel motoru arızalarını göstermekte olup, kitabın renkli basılmasını zorunluluk haline getirmiştir. Kitapta ele alınarak işlenen konular dizel motor arızalarının sınıflandırılması, arızaların olası nedenlerinin özet başlıklarda maddeler halinde irdelenmesi, ilk hareket sistemi arızaları, hava emme sistemi arızaları, egzoz sistemi arızalarıdır. Bu eserin devamı niteliğindeki gelecek kitapta ise dizel motorlarının yakıt, yağlama ve soğutma sistemleri ele alınacaktır. Mevcut haliyle bu eser, Gemi İnşaatı ve Gemi Makinaları Mühendislerine, Gemi Makineleri İşletme Mühendislerine, Makine Mühendislerine, gemilerde makina personeli olarak çalışan sivil ve askeri tüm personele yararlı olacak niteliktedir.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786254025914</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkish</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nobel Akademik Yayıncılık</dc:publisher>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Education</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engineering Sciences</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gemi Dizel Motorları Arızalar ve Nedenleri</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Research</dc:type>
+        <rdfs:label xml:lang="en">Gemi Dizel Motorları Arızalar ve Nedenleri</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCQpDSl9M686cJqywt8YkZH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCQpDSl9M686cJqywt8YkZH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R81z07neQsf3EAAPWLlyrqv"/>
+        <dc:contributor xml:lang="tr">Reşit Aşçıoğlu</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carl Sagan</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</dc:date>
+        <dc:description xml:lang="tr">Kozmos, astronom ve Pulitzer Ödül’lü bilim insanı Carl Sagan’ın popüler bilim kitabıdır. 13 görselleştirilmiş bölümü, birbirini tamamlaması maksadıyla kitapla birlikte geliştirilen kozmos Televizyon programının 13 bölümüne denk gelmektedir</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789752107830</dc:identifier>
+        <dc:language xml:lang="tr">Turkish</dc:language>
+        <dc:publisher xml:lang="tr">Altın Kitaplar - Bilimsel Sorunlar ve Başvuru Dizisi</dc:publisher>
+        <dc:subject xml:lang="tr">Bilimsel Araştırmalar</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kara Delikler</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zaman ve Evren</dc:subject>
+        <dc:title xml:lang="tr">Kozmos-Evrenin Yaşamın Sırları</dc:title>
+        <rdfs:label xml:lang="en">Kozmos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCTPuJkdKkXxQ1BbdEbgGc1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCTPuJkdKkXxQ1BbdEbgGc1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB8JAeUocRHk13ijPONaNfs"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vehbi Özaydın</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laboratuvarlar için Uygulamalı İstatistik</dc:description>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786052828823</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkish</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palme Eğitim</dc:publisher>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Applied Science</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Engineering</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laboratuvarlar için Uygulamalı İstatistik</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Course Material</dc:type>
+        <rdfs:label xml:lang="en">Laboratuvarlar için Uygulamalı İstatistik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCYksCZK4raqZ6lKRHyZHwV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCYksCZK4raqZ6lKRHyZHwV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RthoYO13Q8upDR1vcwHkCf"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Füsun Turcan Elmasoğlu</dc:contributor>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gökçe Aktuğ</dc:contributor>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gökçe Çiçek Çetin</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Margaret Mead</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uzak denizlerde küçük bir adada yaşayan genç kızlara ve yaşadıkları topluma odaklanan bu araştırma, nasıl olup da tüm dünyada bu kadar yankı uyandırmayı başarmıştır? Dahası, bunca yıldan sonra bu küçük kitap hâlâ en ateşli tartışmalara konu olmayı sürdürmektedir. Her şeyden önce barışa, adalete, cinsel özgürlüğe ve maceraya ilgi duyan gerçek bir idealistin, sosyal eylem yanlısı, çığır açıcı bir antropoloğun, zamanının çok önünde giden bir çalışmasıdır söz konusu olan. Mead’in pek çok farklı disiplinden yararlanmak suretiyle, Samoa’daki saha çalışmalarına dayanarak hazırladığı bu kitap, biyolojinin insan davranışları üzerindeki etkisini ihmal etmeden, kültürün bireyleri nasıl şekillendirdiğini açıklıyor. Fikirleriyle kendinden sonraki kuşaklara öncülük etmiş bir bilim insanı olan Mead en başta, cinsiyetler arasındaki farklılıkların değişmez olmadığını, ergenliğin stresli bir dönem olması gerekmediğini, ergen kızların yaşamlarının dikkate ve saygıya değer olduğunu ortaya koyuyor. Dahası, neredeyse yüz yıl öncesinden bize seslenen Mead, bizimkinden çok farklı ama daha eşitlikçi, barışçı ve yaşanmaya değer toplumların olduğunu göstererek, bizi kendi toplumumuz üzerinde düşünmeye çağırıyor.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786051716657</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkish</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alfa Yayıncılık</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Samoada Ergen Olmak</dc:title>
+        <rdfs:label xml:lang="en">Samoada Ergen Olmak</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RTa00fmFnBdNzU72DBbRJJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RTa00fmFnBdNzU72DBbRJJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8ykVD6PFSW2ZmUlbKhhLGi"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stephen Hawking</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İnsanlar her daim büyük sorulara yanıt bulmak istemiştir:
+Tanrı Var mı? Nereden geldik? Her Şey Nasıl Başladı? Evrende Bizden Başka Akıllı Yaşam Var mı? Zamanda Yolculuk Mümkün mü? Yapay Zekâ Bize Üstün Gelecek mi? Her şeyin gerisinde duran anlam ve tasarı nedir? Geçmişin yaratılış üzerinden açıklamaları bugün artık çok daha az uygun ve güvenilir görünüyor. Bu açıklamaların yerini New Age’ten Star Trek’e uzanan kendilerine yalnızca hurafe diyebileceğimiz çeşitli şeyler aldı. Gelgelelim gerçek bilim, bilimkurgudan çok daha tuhaf ve tatmin edici olabilir. Günümüzde bilim bütün bu sorulara yanıt
+bulmaya başladı.Hawking’in ölümünden önce yazdığı son yazıların derlemesi olan bu kitap,tarihin en önemli zihinlerinden birinin büyük sorulara verdiği yanıtlardan oluşuyor. Her Şeyin Teorisi filmindeki performansıyla Oscar kazanan Eddie Redmayne’in önsöz, Nobel Ödüllü bilim insanı Kip Thorne’un giriş ve Hawking’in kızı Lucy’nin sonsöz kaleme aldığı Büyük Sorulara Kısa Yanıtlar bir dehanın dünyaya bıraktığı son mesaj niteliğinde.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786051719092</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkish</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alfa Yayıncılık</dc:publisher>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Science</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Büyük Sorulara Kısa Yanıtlar</dc:title>
+        <dc:tpye rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biography</dc:tpye>
+        <rdfs:label xml:lang="en">Büyük Sorulara Kısa Yanıtlar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RXXc4QkbOVVI2YBFgyhnyE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RXXc4QkbOVVI2YBFgyhnyE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7qgDSGujkgNkZ3mlXBqeFa"/>
+        <dc:creator xml:lang="tr">Abdurrahman Aktümsek</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</dc:date>
+        <dc:description xml:lang="tr">İnsan Anatomisi ve Fizyolojisi kitabı sistemler halinde hazırlanmıştır. Her bir sistemin anatomisi ve fizyolojisi kısa, öz ve anlaşılır biçimde verilmiştir. Ayrıca her sistemde yaygın olarak görülen rahatsızlık ve hastalıkların, nedeni ve tedavi yöntemleri de açıklanmıştır. Bilgiler çok sayıda resim, şekil ve tablolarla desteklenmiştir.</dc:description>
+        <dc:format xml:lang="tr">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786053202264</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkish</dc:language>
+        <dc:publisher xml:lang="tr">Nobel Akademik Yayıncılık</dc:publisher>
+        <dc:subject xml:lang="en">Academic</dc:subject>
+        <dc:subject xml:lang="en">Human Health</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İnsan Anatomisi ve Fizyolojisi</dc:title>
+        <rdfs:label xml:lang="en">İnsan Anatomisi ve Fizyolojisi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RcWqQaXkgeC9TdlG4KiPtJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RcWqQaXkgeC9TdlG4KiPtJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R81z07neQsf3EAAPWLlyrqv"/>
+        <dc:contributor xml:lang="tr">H. Vehbi Eralp</dc:contributor>
+        <dc:contributor xml:lang="tr">Sacit Tameroğlu</dc:contributor>
+        <dc:creator xml:lang="en">Roland Omnes</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evren ve Dönüşümleri evrenin evriminin anladığımızı sandığımız biçimindeki başlıca evrelerini gözden geçirerek, evrende
+fizik yasalarının nasıl işlediklerini göstermeyi amaçlamaktadır.
+Kitapta iki bölüm vardır. Birincisi evrenin başlangıcına, ikincisi galaksilerden yıldızlara giden başlıca cisimleri genel olarak gözden geçirmeye ayrılmıştır. Açıktır ki bu ikinci bölüm hakkında bilgilerimiz çok daha sağlam ve kesindir.
+Bu yapıt, diğer gökbilime ve gök fiziğine ilişkin yapıtlardan farklı olarak zor görüldüğü için genellikle bir kenara bırakılan konulara değinmektedir</dc:description>
+        <dc:format xml:lang="tr">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789758408757</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkish</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İzdüşüm Yayınları</dc:publisher>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roland Omnes</dc:rights>
+        <dc:rights xml:lang="tr">İzdüşüm Yayınları</dc:rights>
+        <dc:subject xml:lang="en">Popular Science</dc:subject>
+        <dc:title xml:lang="tr">Evren ve Dönüşümleri</dc:title>
+        <rdfs:label xml:lang="en">Evren ve Dönüşümleri</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RthoYO13Q8upDR1vcwHkCf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RthoYO13Q8upDR1vcwHkCf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBT847QQDWeXoEuK9C3rtkF"/>
+        <rdfs:label xml:lang="en">Archaeology</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
